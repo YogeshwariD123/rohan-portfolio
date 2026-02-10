@@ -32,7 +32,7 @@ export default function Projects() {
         />
 
         <ProjectCard
-          image="/chat.jpg"
+          image="/Chat.jpg"
           title="Chatty – Real-Time Chat App"
           description="A full-stack real-time chat application using Socket.IO, JWT authentication, and Zustand for state management."
           tech={[
