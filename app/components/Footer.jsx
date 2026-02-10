@@ -23,7 +23,7 @@ export default function Footer() {
 
   const socials = [
     { icon: "devicon-linkedin-plain", link: " https://www.linkedin.com/in/rohan-koli-b993442b6/" },
-    { icon: "devicon-github-original", link: "https://rohan-koli.github.io/" },
+    { icon: "devicon-github-original", link: "https://github.com/rohan-koli" },
     { icon: "devicon-google-plain", link: "mailto:rohankoli0610@gmail.com?subject=Portfolio%20Contact&body=Hi%20Rohan,%20I%20saw%20your%20portfolio..." },
   ];
 

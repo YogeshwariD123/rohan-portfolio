@@ -119,8 +119,23 @@ export default function Contact() {
 
               {/* Socials */}
               <div className="flex gap-6 justify-center pt-4 text-2xl">
-                <i className="devicon-github-original text-gray-400 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition" />
-                <i className="devicon-linkedin-plain text-gray-400 hover:text-blue-400 hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.8)] transition" />
+                <a
+                  href="https://github.com/rohan-koli"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <i className="devicon-github-original text-gray-400 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition" />
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/rohan-koli-b993442b6/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <i className="devicon-linkedin-plain text-gray-400 hover:text-blue-400 hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.8)] transition" />
+                </a>
               </div>
             </div>
           </div>
